@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ] # Если ваша главная ветка называется master, замените main на master
+    branches: [ main ] # Если ваша главная ветка называется master, замените main на master
 
 jobs:
   build-and-deploy:
